@@ -1,0 +1,24 @@
+<div class="detalle">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombres</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of clientes; let i=index">
+                <th scope="row">{{c.id}}</th>
+                <td>{{c.nombre}}</td>
+                <td>{{c.apellidos}}</td>
+                <td>{{c.ciudad}}</td>
+                <td>
+                    <button type="button" class="btn btn-success btn-sm" (click)="seleccionar(i)">Editar</button>
+                    <button type="button" class="btn btn-danger btn-sm" (click)="eliminar(i)">Borrar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
