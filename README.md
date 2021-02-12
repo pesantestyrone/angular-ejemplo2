@@ -1,6 +1,7 @@
 # Angular Ejemplo 2
-Mediante Inyección de Dependencia de un Servicio, comunicar 2 componentes que no estén relacionados.
-Manejo de RxJS Subject que es un tipo de Observable que permite multicast de un valor a muchos Suscriptores
+Mediante Inyección de Dependencia de un Servicio, comunicar 2 componentes no relacionados. <br>
+Manejo de tipo de Observable RxJS Subject que permite multicast de un valor a muchos Suscriptores <br>
+Los datos ingresados se almacenan en memoria y se pierden al recargar la página.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0
 
